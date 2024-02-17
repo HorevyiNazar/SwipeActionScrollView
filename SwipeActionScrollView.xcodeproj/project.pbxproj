@@ -11,6 +11,7 @@
 		EDC734DD2B80CEA200A98FF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC734DC2B80CEA200A98FF1 /* ContentView.swift */; };
 		EDC734DF2B80CEA400A98FF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC734DE2B80CEA400A98FF1 /* Assets.xcassets */; };
 		EDC734E22B80CEA400A98FF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC734E12B80CEA400A98FF1 /* Preview Assets.xcassets */; };
+		EDC734EA2B80D07C00A98FF1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC734E92B80D07C00A98FF1 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		EDC734DC2B80CEA200A98FF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EDC734DE2B80CEA400A98FF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDC734E12B80CEA400A98FF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDC734E92B80D07C00A98FF1 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		EDC734D92B80CEA200A98FF1 /* SwipeActionScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				EDC734E82B80D07500A98FF1 /* View */,
 				EDC734DA2B80CEA200A98FF1 /* SwipeActionScrollViewApp.swift */,
 				EDC734DC2B80CEA200A98FF1 /* ContentView.swift */,
 				EDC734DE2B80CEA400A98FF1 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				EDC734E12B80CEA400A98FF1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDC734E82B80D07500A98FF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EDC734E92B80D07C00A98FF1 /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDC734DD2B80CEA200A98FF1 /* ContentView.swift in Sources */,
+				EDC734EA2B80D07C00A98FF1 /* Home.swift in Sources */,
 				EDC734DB2B80CEA200A98FF1 /* SwipeActionScrollViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
